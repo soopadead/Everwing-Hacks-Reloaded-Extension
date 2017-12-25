@@ -35,8 +35,8 @@ for (var i = 0; i < names.length; i++) {
 
 Get a random sidekick
 ```javascript
-var types = ["smart", "common", "bronze", "silver", "gold", "magical", "legendary", "bossraid"];
-GC.app.client.runFunction("sidekickGacha", {isFree : true, gachaType : types[Math.floor(Math.random() * types.length)]});
+var gacha = GC.app.client.schemaAPI.getTable("gachaConfig").rows;
+GC.app.client.runFunction("sidekickGacha", {isFree : true, gachaType : gacha[Math.floor(Math.random() * gacha.length)].type});
 ```
 
 Get a random event sidekick
