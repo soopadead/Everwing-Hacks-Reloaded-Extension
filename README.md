@@ -26,8 +26,8 @@ Now paste any of the codes bollow to hack the game.
 ```javascript
 var names = ["fiona", "sophia", "coin", "magnet", "lenore", "jade", "arcana", "lyra", "trixie"];
 for (var i = 0; i < names.length; i++) {
-  if(GC.app.mvc.models.CharactersModel.characters[names[i]].state == "locked")
-    GC.app.client.runFunction("purchaseCharacter", { characterID: names[i], isFree: true });
+	if(GC.app.mvc.models.CharactersModel.characters[names[i]].state == "locked")
+		GC.app.client.runFunction("purchaseCharacter", { characterID: names[i], isFree: true });
 }
 ```
 
@@ -39,7 +39,7 @@ var maxlevel = 50;
 var state = null;
 for (var i = 0; i < names.length; i++) {
 	if(GC.app.mvc.models.CharactersModel.characters[names[i]].state == "locked")
-    			GC.app.client.runFunction("purchaseCharacter", { characterID: names[i], isFree: true });
+    		GC.app.client.runFunction("purchaseCharacter", { characterID: names[i], isFree: true });
 	level = GC.app.mvc.models.CharactersModel.characters[names[i]].level;
 	maxlevel = GC.app.mvc.models.CharactersModel.characters[names[i]].maxLevel;
 	state = GC.app.mvc.models.CharactersModel.characters[names[i]].state;
