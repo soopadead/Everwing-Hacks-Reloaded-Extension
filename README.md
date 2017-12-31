@@ -31,6 +31,32 @@ for (var i = 0; i < names.length; i++) {
 }
 ```
 
+### Maximize All Players' Levels
+```javascript
+var names = ["fiona", "sophia", "coin", "magnet", "lenore", "jade", "arcana", "lyra", "trixie"];
+var level = 1;
+var maxlevel = 50;
+var state = null;
+for (var i = 0; i < names.length; i++) {
+	if(GC.app.mvc.models.CharactersModel.characters[names[i]].state == "locked")
+    			GC.app.client.runFunction("purchaseCharacter", { characterID: names[i], isFree: true });
+	level = GC.app.mvc.models.CharactersModel.characters[names[i]].level;
+	maxlevel = GC.app.mvc.models.CharactersModel.characters[names[i]].maxLevel;
+	state = GC.app.mvc.models.CharactersModel.characters[names[i]].state;
+	console.log("Level : " + level + " Max Level : " + maxlevel + " state : " + state);
+	if(state == "idle" || state == "equiped") {
+		if(state == "idle") {
+			GC.app.client.runFunction("equipCharacter", {characterName : names[i]});
+			console.log("equiping : " + names[i]);
+		}
+		for (x = level; x < maxlevel; x++) {
+			console.log("upgrading : " + names[i] + " x : " + x);
+			GC.app.client.runFunction("purchaseCharacterUpgrade", {characterID : names[i], isFree : true});
+		}
+	}
+}
+```
+
 ### Get a sidekick
 
 Get a random sidekick
