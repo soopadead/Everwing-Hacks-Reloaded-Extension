@@ -124,39 +124,6 @@ Get a bossraid sidekick
 GC.app.client.runFunction("sidekickGacha", {isFree : true, gachaType : "bossraid"});
 ```
 
-
-### Get Energy
-
-First apply this function
-```javascript
-var getFreeEnergy = function(x){
-  if(GC.app.client.schemaManager.models[17]._frozen)
-    GC.app.client.schemaManager.models[17]._frozen = false;
-  if (GC.app.client.schemaAPI.getTable("raidEnergyShop").rows.length == 6) {
-    GC.app.client.schemaManager.models[17].rows = JSON.parse(JSON.stringify(GC.app.client.schemaManager.models[17].rows));
-    for(var i = 0; i < GC.app.client.schemaManager.models[17].rows.length; i++){
-      if(GC.app.client.schemaManager.models[17].rows[i].count == x)
-        break;
-    }
-    GC.app.client.schemaManager.models[17].rows.splice(i, 0, {
-      "id" : "item-free",
-      "icon" : "resources/images/game/base/item_energy.png",
-      "count" : x,
-      "cost" : 0,
-      "currency" : "trophies",
-      "bonus" : 0
-    });
-  } else {
-    GC.app.client.schemaAPI.getTable("raidEnergyShop").getRow("item-free").count = x;
-  }
-  GC.app.mvc.sendNotification("PurchaseEnergyCommand",{id: "item-free"});
-}
-```
-Then call it with any ammount you want, for example, if you want 10 energy, write
-```javascript
-getFreeEnergy(10);
-```
-
 ### Fake a game run
 
 First apply this function
