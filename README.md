@@ -7,6 +7,10 @@ The security of the today systems should be strong. We as users demand that the 
 
 We use these cheat codes as an example of how a supposed well crafted game like Everwing, with fancy sprites and game modes, has no security at all. By using this cheats your account may be banned.
 
+## Use our extension
+You can easily run the hack codes by installing our extension
+https://dinodevs.github.io/Everwing-Hacks/
+
 ## Apply the hacks
 To apply the hacks you have to open the developer console of your browser.
 
