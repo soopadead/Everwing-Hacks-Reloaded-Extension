@@ -1,3 +1,5 @@
+https://dinodevs.github.io/Everwing-Hacks/
+
 # Everwing-Hacks
 Hacks for the everwing game.
 
