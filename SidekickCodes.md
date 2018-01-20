@@ -17,8 +17,11 @@
  - **FC15** : Avi, Avalon, Suldal
  - **FC22** : Heros, Havanna, Hartumas
  - **FC23** : Kiin, Kigi, Kiwig
- - **FC28** : Lava, Magma, Vulcan
+ - **FC28** : Scorch, Scorcio, Scorciatus
+ - **FC34** : Ted, Theo, Theodore
  - **FC38** : Zio, Zoca, Ziocatel
+ - **FC39** : Lanci, Lanceo, Lancelot
+ - **FC40** : Ara, Ares, Martius
  - **LC00** : Bauble, Lumen, Emprer
  - **LC01** : Glowbean, Gloria, Glorious Rex
  - **LC03** : Furlix, Furline, Furleone
@@ -32,7 +35,10 @@
  - **LC22** : Rumi, Roma, Rochelais
  - **LC23** : Sar, Anga, Sarangay
  - **LC28** : Cony, Chrysos, Cornelius
+ - **LC34** : Mina, Minne, Minerva
  - **LC38** : Ton, Tohnna, Tohnati
+ - **LC39** : Max, Maxus, Maximilian
+ - **LC40** : Aero, Aeron, Aetherion
  - **NC00** : Moss, Shrubb, Forrest
  - **NC01** : Flo, Flora, Florastyx
  - **NC02** : Skout, Sage, Tuskan
@@ -48,9 +54,14 @@
  - **NC22** : Casp, Castillan, Conthargos
  - **NC23** : Pong, Lampi, Lampong
  - **NC28** : Lumi, Lucerna, Lumina
+ - **NC35** : Nik, Niko, Nikolas
+ - **NC34** : Blip, Blitzer, Blitzen
  - **NC38** : Soch, Sopill, Sochipilly
+ - **NC39** : Melo, Melos, Rhapsodus
+ - **NC40** : Gigi, Gaea, Terra
  - **PC00** : Pris, Prima, Prismaticus
  - **PC22** : Pharis, Pharion, Pharocius
+ - **PC40** : Pega, Peggie, Fortuna
  - **SC00** : Moonbite, Moonchomp, Mooneater
  - **SC01** : Clipsy, Astreon, Eclipsis
  - **SC02** : Umbra, Umbrathyst, Umbrasaur
@@ -68,7 +79,11 @@
  - **SC23** : Ban, Bakun, Bakunawa
  - **SC28** : Ven, Venum, Venumnarius
  - **SC29** : Magi, Magus, Sorceros
+ - **SC35** : Kram, Kramp, Krampus
+ - **SC34** : Dasher, Dancer, Prancer
  - **SC38** : Mici, Misti, Micticas
+ - **SC39** : Jes, Jesper, Trixoticus
+ - **SC40** : Som, Somnus, Erebus
  - **WC00** : Squirt, Phinn, Sailmander
  - **WC01** : Nym, Ondas, Poseidyn
  - **WC02** : Unagli, Leviathan, Tempestius
@@ -84,7 +99,10 @@
  - **WC22** : Balou, Balouja, Baloubet
  - **WC23** : Nuno, Buaya, Buwaya
  - **WC28** : Icee, Fria, Frigidus
+ - **WC34** : Bjorn, Storbjorn, Panzerbjorn
  - **WC38** : Tal, Tala, Talok
+ - **WC39** : Meri, Merci, Mercuria
+ - **WC40** : Po, Ponee, Oceanus
 
 ---
 ### For hackers... if you know that this is
