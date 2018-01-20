@@ -32,7 +32,7 @@ Now paste any of the codes bollow to hack the game.
 
 ### Unlock All Players
 ```javascript
-var names = ["fiona", "sophia", "coin", "magnet", "lenore", "jade", "arcana", "lyra", "trixie"];
+var names = ["fiona", "sophia", "coin", "magnet", "lenore", "jade", "arcana", "lyra", "trixie", "lucia"];
 for (var i = 0; i < names.length; i++) {
 	if(GC.app.mvc.models.CharactersModel.characters[names[i]].state == "locked")
 		GC.app.client.runFunction("purchaseCharacter", { characterID: names[i], isFree: true });
@@ -41,7 +41,7 @@ for (var i = 0; i < names.length; i++) {
 
 ### Maximize All Players' Levels
 ```javascript
-var names = ["fiona", "sophia", "coin", "magnet", "lenore", "jade", "arcana", "lyra", "trixie"];
+var names = ["fiona", "sophia", "coin", "magnet", "lenore", "jade", "arcana", "lyra", "trixie", "lucia"];
 var level = 1;
 var maxlevel = 50;
 var state = null;
