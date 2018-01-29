@@ -130,6 +130,30 @@ Get a bossraid sidekick
 GC.app.client.runFunction("sidekickGacha", {isFree : true, gachaType : "bossraid"});
 ```
 
+### Delete all your sidekicks
+
+```javascript
+// Sell all the SideKicks
+(function(){
+	var sellAllSideKicks = function(){
+		var list = GC.app.client.stateAPI.getByTags(["sidekick"]);
+		var count = list.length;
+		
+		var i = 0;
+		while(list[i] && list[i].state != "idle" && i < count){i++}
+		if (i >= count) {console.log('Done!');return;}
+		else console.log((count - i) + ' sidekicks left');
+		
+		GC.app.client.runFunction("sellSidekick", {sidekickKey: list[i].key}).then(function(){
+			setTimeout(function(){
+				sellAllSideKicks();
+			}, 500);
+		});
+	}
+	sellAllSideKicks();
+})();
+```
+
 ### Fake a game run
 
 First apply this function
