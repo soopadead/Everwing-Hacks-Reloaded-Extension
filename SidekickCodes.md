@@ -22,6 +22,7 @@
  - **FC38** : Zio, Zoca, Ziocatel
  - **FC39** : Lanci, Lanceo, Lancelot
  - **FC40** : Ara, Ares, Martius
+ - **FC46** : Bae, Baucis, Baucisius
  - **LC00** : Bauble, Lumen, Emprer
  - **LC01** : Glowbean, Gloria, Glorious Rex
  - **LC03** : Furlix, Furline, Furleone
@@ -39,6 +40,7 @@
  - **LC38** : Ton, Tohnna, Tohnati
  - **LC39** : Max, Maxus, Maximilian
  - **LC40** : Aero, Aeron, Aetherion
+ - **LC43** : Cygna, Cygnel, Cygnelia
  - **NC00** : Moss, Shrubb, Forrest
  - **NC01** : Flo, Flora, Florastyx
  - **NC02** : Skout, Sage, Tuskan
@@ -59,6 +61,7 @@
  - **NC38** : Soch, Sopill, Sochipilly
  - **NC39** : Melo, Melos, Rhapsodus
  - **NC40** : Gigi, Gaea, Terra
+ - **NC43** : Lacertis, Lacerus, Laceratius
  - **PC00** : Pris, Prima, Prismaticus
  - **PC22** : Pharis, Pharion, Pharocius
  - **PC40** : Pega, Peggie, Fortuna
@@ -84,6 +87,7 @@
  - **SC38** : Mici, Misti, Micticas
  - **SC39** : Jes, Jesper, Trixoticus
  - **SC40** : Som, Somnus, Erebus
+ - **SC43** : Corvus, Corvenor, Corvenus
  - **WC00** : Squirt, Phinn, Sailmander
  - **WC01** : Nym, Ondas, Poseidyn
  - **WC02** : Unagli, Leviathan, Tempestius
@@ -103,6 +107,7 @@
  - **WC38** : Tal, Tala, Talok
  - **WC39** : Meri, Merci, Mercuria
  - **WC40** : Po, Ponee, Oceanus
+ - **WC46** : Phea, Pheona, Philomena
 
 ---
 ### For hackers... if you know that this is
