@@ -130,6 +130,60 @@ Get a bossraid sidekick
 GC.app.client.runFunction("sidekickGacha", {isFree : true, gachaType : "bossraid"});
 ```
 
+### Get Specific Sidekick
+First define the function
+```javascript
+var getMeTheSideKick = function(tier, sidekick, zodiac, isPerfectZodiac) {
+	var API = GC.app.client.schemaAPI.constructor;
+	var real = API.prototype.getFunction;
+	API.prototype.getFunction = function(e, t) {
+		var i = this.getModel(e);
+		if (!i) throw new Error('No listingFunction registered for name: "' + e + '"');
+		return i;
+	}
+	GC.app.client.runFunction("createSidekickHelper", {
+		tier : tier,
+		sidekickID : sidekick,
+		zodiac : zodiac,
+		isPerfectZodiac : isPerfectZodiac
+	}).then(function(s){
+		console.log('You got a "' + s.name + '"!')
+		API.prototype.getFunction = real;
+	});
+}
+```
+Then call it to get the sidekick you want... example: `getMeTheSideKick(1, 'WC46', 2, false);`
+
+#### Parameters info
+1st parameter: tier
+
+| Value | Tier | Level |
+| --- | --- | --- |
+| 1 | Tier 1 | 1 level |
+| 2 | Tier 2 | 11 level |
+| 3 | Tier 3 | 21 level |
+
+2nd parameter: sidekick
+Get from the [Sidekick Codes List](SidekickCodes.md)
+
+3rd parameter: zodiac
+
+| Value | Symbol | Name |
+| --- | --- | --- |
+| 0 | ♒ | Aquarius |
+| 1 | ♓ | Pisces |
+| 2 | ♈ | Aries |
+| 3 | ♉ | Taurus |
+| 4 | ♊ | Gemini |
+| 5 | ♋ | Cancer |
+| 6 | ♌ | Leo |
+| 7 | ♍ | Virgo |
+| 8 | ♎ | Libra |
+| 9 | ♏ | Scorpio |
+| 10 | ♐ | Sagittarius |
+| 11 | ♑ | Capricorn |
+
+
 ### Delete all your sidekicks
 
 ```javascript
