@@ -22,6 +22,7 @@
  - **FC38** : Zio, Zoca, Ziocatel
  - **FC39** : Lanci, Lanceo, Lancelot
  - **FC40** : Ara, Ares, Martius
+ - **FC43** : Furni, Furnaxus, Praefurnium
  - **FC46** : Bae, Baucis, Baucisius
  - **LC00** : Bauble, Lumen, Emprer
  - **LC01** : Glowbean, Gloria, Glorious Rex
@@ -133,4 +134,12 @@ for(var i in sidekicks){
 	sidekickcodes_md += " - **" + i + "** : " + names.tier0 + ", " + names.tier1 + ", " + names.tier2 + "\n";
 }
 console.log(sidekickcodes_md);
+
+// This will also print them nice
+var sidekickcodes_html = "", names;
+for(var i in sidekicks){
+	names = sidekicks[i].names;
+	sidekickcodes_html += '<option value="' + i + '">' + names.tier0 + ', ' + names.tier1 + ', ' + names.tier2 + '</option>\n';
+}
+console.log(sidekickcodes_html);
 ```
