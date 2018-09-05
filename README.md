@@ -1,8 +1,8 @@
 https://dinodevs.github.io/Everwing-Hacks/
-
 Google Chrome Extension https://chrome.google.com/webstore/detail/everwing-hacks/fbingkbgnhkfpmffjiekekmedohpmfef
 
 # Everwing-Hacks
+### Sharing these cheat codes as yours is not nice... even if you are a youtuber
 Hacks for the everwing game.
 
 These codes are for people that understund some programing.
