@@ -2,7 +2,7 @@ https://dinodevs.github.io/Everwing-Hacks/
 
 Google Chrome Extension https://chrome.google.com/webstore/detail/everwing-hacks/fbingkbgnhkfpmffjiekekmedohpmfef
 
-(Not currently availiable on chrome store [issue here](issues/26))
+(Not currently availiable on chrome store [issue here](../../issues/26))
 
 # Everwing-Hacks
 ### Sharing these cheat codes as yours is not nice... even if you are a youtuber
