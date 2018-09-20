@@ -1,6 +1,12 @@
 https://dinodevs.github.io/Everwing-Hacks/
 
-Google Chrome Extension https://chrome.google.com/webstore/detail/everwing-hacks/fbingkbgnhkfpmffjiekekmedohpmfef
+•
+[[Get for Chromium]](https://github.com/DinoDevs/Everwing-Hacks/releases/download/v2.1.5/EverWingHacks.v2.1.5.crx)
+•
+[[Get for Firefox]](https://github.com/DinoDevs/Everwing-Hacks/releases/download/v2.1.5/EverWingHacks.v2.1.5.xpi)
+•
+[[Get for Opera]](https://github.com/DinoDevs/Everwing-Hacks/releases/download/v2.1.5/EverWingHacks.v2.1.5.nex)
+•
 
 (Not currently availiable on chrome store [issue here](../../issues/26))
 
