@@ -41,7 +41,7 @@ To do that:
 ## Hack Codes
 Now paste any of the codes bollow to hack the game.
 
-### Unlock All Players
+### Unlock All characters
 ```javascript
 var names = ["fiona", "sophia", "coin", "magnet", "lenore", "jade", "arcana", "lyra", "trixie", "lucia", "neve"];
 for (var i = 0; i < names.length; i++) {
@@ -50,7 +50,7 @@ for (var i = 0; i < names.length; i++) {
 }
 ```
 
-### Maximize All Players' Levels
+### Maximize All characters' Levels
 ```javascript
 var names = ["fiona", "sophia", "coin", "magnet", "lenore", "jade", "arcana", "lyra", "trixie", "lucia", "neve"];
 var level = 1;
