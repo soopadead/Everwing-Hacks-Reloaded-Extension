@@ -43,7 +43,7 @@ Now paste any of the codes bollow to hack the game.
 
 ### Unlock All Players
 ```javascript
-var names = ["fiona", "sophia", "coin", "magnet", "lenore", "jade", "arcana", "lyra", "trixie", "lucia"];
+var names = ["fiona", "sophia", "coin", "magnet", "lenore", "jade", "arcana", "lyra", "trixie", "lucia", "neve"];
 for (var i = 0; i < names.length; i++) {
 	if(GC.app.mvc.models.CharactersModel.characters[names[i]].state == "locked")
 		GC.app.client.runFunction("purchaseCharacter", { characterID: names[i], isFree: true });
@@ -52,7 +52,7 @@ for (var i = 0; i < names.length; i++) {
 
 ### Maximize All Players' Levels
 ```javascript
-var names = ["fiona", "sophia", "coin", "magnet", "lenore", "jade", "arcana", "lyra", "trixie", "lucia"];
+var names = ["fiona", "sophia", "coin", "magnet", "lenore", "jade", "arcana", "lyra", "trixie", "lucia", "neve"];
 var level = 1;
 var maxlevel = 50;
 var state = null;
@@ -229,7 +229,6 @@ var playFakeGame = function(data) {
 	data.score = data.score || 10 + Math.round(Math.random()*10);
 	data.seconds = data.seconds || 10 + Math.round(Math.random()*10);
 	data.coins = data.coins || 0;
-	data.trophies = data.trophies || 0;
 	data.energy = data.energy || 0;
 	data.xp = data.xp || 0;
 	data.sidekick_xp = data.sidekick_xp || 0;
@@ -251,7 +250,6 @@ var playFakeGame = function(data) {
 		background : "ocean",
 		score : data.score,
 		commonEarned : data.coins,
-		premiumEarned : data.trophies,
 		energyEarned : data.energy,
 		playerXP : data.xp,
 		sidekickXP : data.sidekick_xp,
@@ -267,11 +265,7 @@ Get 15.000 coints
 ```javascript
 playFakeGame({coins : 15000});
 ```
-Get 1.500 trophies
-```javascript
-playFakeGame({trophies : 1500});
-```
-Get 9.999 player XP points
+Get 9.999 account XP points
 ```javascript
 playFakeGame({xp : 9999});
 ```
@@ -280,4 +274,3 @@ Get 9.999 sideckick XP points
 playFakeGame({sidekick_xp : 9999});
 ```
 
-There are limits on the resources you can get, for example you can't get 999.999 coins with 1 fake game.
