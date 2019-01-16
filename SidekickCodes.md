@@ -64,6 +64,7 @@
  - **NC40** : Gigi, Gaea, Terra
  - **NC43** : Lacertis, Lacerus, Laceratius
  - **PC00** : Pris, Prima, Prismaticus
+ - **PC03** : Pigmalion, Pigmalionus, Pigesquire
  - **PC22** : Pharis, Pharion, Pharocius
  - **PC40** : Pega, Peggie, Fortuna
  - **SC00** : Moonbite, Moonchomp, Mooneater
@@ -108,10 +109,11 @@
  - **WC38** : Tal, Tala, Talok
  - **WC39** : Meri, Merci, Mercuria
  - **WC40** : Po, Ponee, Oceanus
+ - **WC43** : Volt, Lantis, Voltantis
  - **WC46** : Phea, Pheona, Philomena
 
 ---
-### For hackers... if you know that this is
+### For hackers... if you know what this is
 
 ```javascript
 // Change this code
