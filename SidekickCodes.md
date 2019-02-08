@@ -22,6 +22,7 @@
  - **FC38** : Zio, Zoca, Ziocatel
  - **FC39** : Lanci, Lanceo, Lancelot
  - **FC40** : Ara, Ares, Martius
+ - **FC44** : Ember, Agame, Augmemnon
  - **FC43** : Furni, Furnaxus, Praefurnium
  - **FC46** : Bae, Baucis, Baucisius
  - **LC00** : Bauble, Lumen, Emprer
@@ -42,6 +43,7 @@
  - **LC39** : Max, Maxus, Maximilian
  - **LC40** : Aero, Aeron, Aetherion
  - **LC43** : Cygna, Cygnel, Cygnelia
+ - **LC44** : Lybone, Marolite, Shadowbane
  - **NC00** : Moss, Shrubb, Forrest
  - **NC01** : Flo, Flora, Florastyx
  - **NC02** : Skout, Sage, Tuskan
@@ -110,6 +112,7 @@
  - **WC39** : Meri, Merci, Mercuria
  - **WC40** : Po, Ponee, Oceanus
  - **WC43** : Volt, Lantis, Voltantis
+ - **WC44** : Watapup, Aquamane, Aquanine
  - **WC46** : Phea, Pheona, Philomena
 
 ---
