@@ -1,11 +1,11 @@
 https://dinodevs.github.io/Everwing-Hacks/
 
 •
-[[Get for Chromium]](https://github.com/DinoDevs/Everwing-Hacks/releases/download/v2.1.5/EverWingHacks.v2.1.5.crx)
+[[Get for Chromium]](https://github.com/DinoDevs/Everwing-Hacks/releases/download/v2.1.6/EverWingHacks.v2.1.6.crx)
 •
-[[Get for Firefox]](https://github.com/DinoDevs/Everwing-Hacks/releases/download/v2.1.5/EverWingHacks.v2.1.5.xpi)
+[[Get for Firefox]](https://github.com/DinoDevs/Everwing-Hacks/releases/download/v2.1.6/EverWingHacks.v2.1.6.xpi)
 •
-[[Get for Opera]](https://github.com/DinoDevs/Everwing-Hacks/releases/download/v2.1.5/EverWingHacks.v2.1.5.nex)
+[[Get for Opera]](https://github.com/DinoDevs/Everwing-Hacks/releases/download/v2.1.6/EverWingHacks.v2.1.6.nex)
 •
 
 (Not currently availiable on chrome store [issue here](../../issues/26))
