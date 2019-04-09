@@ -118,8 +118,8 @@ Get 10×1000 XP (2 minutes)
 playFakeGame({xp : 1000, seconds : 12, times: 10});
 ```
 Get Ancient egg (12 seconds)
-```javacript
-playFakeGame({egg : 'ancientTutorial', seconds : 12});
+```javascript
+playFakeGame({egg : "ancientTutorial", seconds : 12});
 ```
 
 ### Get the friends rewards
