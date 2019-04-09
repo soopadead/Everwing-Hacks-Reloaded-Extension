@@ -98,7 +98,7 @@ playFakeGame({xp : 1000, seconds : 12});
 Get 10×1000 XP (2 minutes)
 ```javascript
 playFakeGame({xp : 1000, seconds : 12, times: 10});
-```
+```javascript
 Get Ancient egg (12 seconds)
 ```javacript
 playFakeGame({egg : 'ancientTutorial', seconds : 12});
