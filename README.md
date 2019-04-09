@@ -41,12 +41,19 @@ var playFakeGame = function(d) {
 	data.sidekick2Key = "";
 	data.xpEarned = d.xp || 0;
 	var time = d.seconds * 1000 || 12000;
+	d.times = d.times || 1;
 	// Get sidekicks
 	var sidekicks = window.GC.app.gameView.sidekicksModel.sidekicksList;
 	for(var i=0; i<sidekicks.length; i++){
 		if(sidekicks[i].state == "equippedLeft"){data.sidekick1Key = sidekicks[i].id;}
 		else if(sidekicks[i].state == "equippedRight"){data.sidekick2Key = sidekicks[i].id;}
 	}
+	// Check eg type
+	if (data.eggTypeFound.length > 0) {
+		try{window.GC.app.mvc.models.ServerModel.client.schemaAPI.getTable("eggSlotConfig").getRow('common')}
+		catch(e){console.log('Invalid egg type.');return;}
+	}
+	// Check if already running
 	if (window.fakeGameIsRunning) {
 		console.log('A fake game is already running.');
 		return;
@@ -60,6 +67,8 @@ var playFakeGame = function(d) {
 		window.GC.app.mvc.sendNotification("RootDialogViewController.hideSpinner");
 		window.GC.app.client.runFunction('gameComplete', data);
 		window.fakeGameIsRunning = false;
+		d.times --;
+		if (d.times > 0) setTimeout(function(){playFakeGame(d);}, 0);
 	}, time);
 }
 ```
@@ -86,4 +95,11 @@ Get 1000 XP (12 seconds)
 ```javascript
 playFakeGame({xp : 1000, seconds : 12});
 ```
-
+Get 10×1000 XP (2 minutes)
+```javascript
+playFakeGame({xp : 1000, seconds : 12, times: 10});
+```
+Get Ancient egg (12 seconds)
+```javacript
+playFakeGame({egg : 'ancientTutorial', seconds : 12});
+```
