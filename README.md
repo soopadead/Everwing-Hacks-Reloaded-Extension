@@ -11,17 +11,35 @@ https://dinodevs.github.io/Everwing-Hacks/
 (Not currently availiable on chrome store [issue here](../../issues/26))
 
 # Everwing-Hacks
-### Everwing finally patched most of the holes.
+### Everwing finally patched many holes
 
-These codes were for people that understund some programing.
+It's nice to see that the Everwing Game finally made quite some changes and added serverside code to avoid hacks, obviously ingame-currency transactions should run on a secure sandbox where an external user can not manage them. But even now they do not validate all the inputs to the server... Now we can mostly complain about the spam messages it sends to our friends.
+
+These codes are for people that understand some programing.
 
 The security of the today systems should be strong. We as users demand that the systems we use should be secure to protect our data. For educational reasons we try to see, how easy it is to change the system's data (like in this example Everwing Game's data). When a game is so unsecure, it makes a player's ingame achivements and items useless.
 
 We use these cheat codes as an example of how a supposed well crafted game like Everwing, with fancy sprites and game modes, has no security at all. By using this cheats your account may be banned.
 
+**PS: Sharing these cheat codes as yours is not nice... even if you are trying to be a youtuber**
+
 ## Use our extension
 You can easily run the hack codes by installing our extension
 https://dinodevs.github.io/Everwing-Hacks/
+
+## Apply the hacks
+To apply the hacks you have to open the developer console of your browser.
+
+Detailed guide with photos [here](docs/guide.md).
+
+To do that:
+ - Click F12 on the everwing game page (or, right click the page and select "inspect element")
+    - This will open the developer's tools on most major browsers. From here web developers tests and debug the web aplications they create. If your browser don't have dev tools, you can use firebug (https://getfirebug.com/)
+ - Click the "Console" tab if you are not already there
+    - The console tab is a javascript console. Here, we can write javascript code and run it on the active page.
+ - Click the down arrow next to the "top"
+ - On the drop down, sellect "index.html" (it should be on the bottom)
+    - This will set the active javascript window to the game window, so that the code we run will run on the game window and not on the messenger window.
 
 ## Hack Codes
 
@@ -102,4 +120,52 @@ playFakeGame({xp : 1000, seconds : 12, times: 10});
 Get Ancient egg (12 seconds)
 ```javacript
 playFakeGame({egg : 'ancientTutorial', seconds : 12});
+```
+
+### Get the friends rewards
+
+The game want us to recruit other players to give us gems... but it does not checks if we did so.
+```javascript
+// Get 25 gems, max usages 5000 times
+GC.app.client.runFunction('claimCurrencyReward', {tokenName: 'offer_newFriends_1'});
+// Get 50 gems, max usages 1000 times
+GC.app.client.runFunction('claimCurrencyReward', {tokenName: 'offer_newFriends_5'});
+// Get 100 gems, max usages 500 times
+GC.app.client.runFunction('claimCurrencyReward', {tokenName: 'offer_newFriends_10'});
+// Get 250 gems, max usages 250 times
+GC.app.client.runFunction('claimCurrencyReward', {tokenName: 'offer_newFriends_20'});
+// Get 500 gems, max usages 125 times
+GC.app.client.runFunction('claimCurrencyReward', {tokenName: 'offer_newFriends_40'});
+// Get 1500 gems, max usages 50 times
+GC.app.client.runFunction('claimCurrencyReward', {tokenName: 'offer_newFriends_100'});
+```
+
+Rewards with cooldowns
+```javascript
+// Get 5 gems, once every 2 hours, max usage 3650 times
+GC.app.client.runFunction('claimCurrencyReward', {tokenName: 'adForPremium'});
+// Get 50 gems, once every 23 hours, max usage 3650 times
+GC.app.client.runFunction('claimCurrencyReward', {tokenName: 'facebookLogin'});
+// Get 10000 coins, once per day, max 3650 usage times
+GC.app.client.runFunction('claimCurrencyReward', {tokenName: 'dailyReward_coins'});
+// Get 40 gems, once per day, max usage 3650 times
+GC.app.client.runFunction('claimCurrencyReward', {tokenName: 'dailyReward_gems'});
+// Get 200 fruits, once per day, max usage 3650 times
+GC.app.client.runFunction('claimCurrencyReward', {tokenName: 'dailyReward_dragonfruits'});
+```
+
+One time only rewards
+```javascript
+// Get 5000 coins
+GC.app.client.runFunction('claimCurrencyReward', {tokenName: 'createShortcut'});
+// Get 5000 coins
+GC.app.client.runFunction('claimCurrencyReward', {tokenName: 'fishingStarPromo'});
+// Get 5000 coins
+GC.app.client.runFunction('claimCurrencyReward', {tokenName: 'unagioPromo'});
+// Get 175 gems
+GC.app.client.runFunction('claimCurrencyReward', {tokenName: 'starTokenTutorialReward'});
+// Get 250 gems
+GC.app.client.runFunction('claimCurrencyReward', {tokenName: 'offer_startQuest'});
+// Get 250 gems
+GC.app.client.runFunction('claimCurrencyReward', {tokenName: 'offer_joinClan'});
 ```
