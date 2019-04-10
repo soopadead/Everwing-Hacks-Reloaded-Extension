@@ -1,3 +1,5 @@
+*The extension is currently not working*
+
 https://dinodevs.github.io/Everwing-Hacks/
 
 •
