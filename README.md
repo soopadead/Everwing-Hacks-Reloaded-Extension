@@ -19,7 +19,7 @@ The security of the today systems should be strong. We as users demand that the 
 
 We use these cheat codes as an example of how a supposed well crafted game like Everwing, with fancy sprites and game modes, has no security at all. By using this cheats your account may be banned.
 
-**PS: Sharing these cheat codes as yours is not nice... even if you are trying to be a youtuber**
+**PS: Sharing these cheat codes as yours is not nice...**
 
 ## Use our extension
 You can easily run the hack codes by installing our extension
