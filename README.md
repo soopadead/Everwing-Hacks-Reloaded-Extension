@@ -25,5 +25,7 @@ We use these cheat codes as an example of how a supposed well crafted game like 
 You can easily run the hack codes by installing our extension
 https://dinodevs.github.io/Everwing-Hacks/
 
+Devs can go to about tab and click multiple times the year text to enable dev tab.
+
 # Hack C0d3s
 Most cheats were patched and the hack apply process is now a little compicated.
