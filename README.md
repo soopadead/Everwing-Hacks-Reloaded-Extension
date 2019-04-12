@@ -15,7 +15,7 @@ It's nice to see that the Everwing Game finally made quite some changes and adde
 
 The security of the today systems should be strong. We as users demand that the systems we use should be secure to protect our data. For educational reasons we try to see, how easy it is to change the system's data (like in this example Everwing Game's data). When a game is so unsecure, it makes a player's ingame achivements and items useless.
 
-We use these cheat codes as an example of how a supposed well crafted game like Everwing, with fancy sprites and game modes, has no security at all. By using this cheats your account may be banned.
+We use these cheat codes as an example of how a supposed well crafted game like Everwing, with fancy sprites and game modes, has no security at all. **By using this cheats your account will be banned, eventually.**
 
 **PS: Sharing these cheat codes as yours is not nice...**
 
