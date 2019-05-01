@@ -17,10 +17,10 @@ Devs can go to about tab and click multiple times the year text to enable dev ta
 
 https://dinodevs.github.io/Everwing-Hacks/
 
-[![version](https://img.shields.io/badge/Extension%20Version-v2.2.2-green.svg)](https://github.com/DinoDevs/Everwing-Hacks/releases/latest)
-[![Get for Chromium](https://img.shields.io/badge/Get%20for-Chrome-blue.svg)](https://github.com/DinoDevs/Everwing-Hacks/releases/download/v2.2.2/EverWingHacks.v2.2.2.crx)
-[![Get for Firefox](https://img.shields.io/badge/Get%20for-Firefox-orange.svg)](https://github.com/DinoDevs/Everwing-Hacks/releases/download/v2.2.2/EverWingHacks.v2.2.2.xpi)
-[![Get for Opera](https://img.shields.io/badge/Get%20for-Opera-red.svg)](https://github.com/DinoDevs/Everwing-Hacks/releases/download/v2.2.2/EverWingHacks.v2.2.2.nex)
+[![version](https://img.shields.io/badge/Extension%20Version-v2.2.3-green.svg)](https://github.com/DinoDevs/Everwing-Hacks/releases/latest)
+[![Get for Chromium](https://img.shields.io/badge/Get%20for-Chrome-blue.svg)](https://github.com/DinoDevs/Everwing-Hacks/releases/download/v2.2.3/EverWingHacks.v2.2.3.crx)
+[![Get for Firefox](https://img.shields.io/badge/Get%20for-Firefox-orange.svg)](https://github.com/DinoDevs/Everwing-Hacks/releases/download/v2.2.3/EverWingHacks.v2.2.3.xpi)
+[![Get for Opera](https://img.shields.io/badge/Get%20for-Opera-red.svg)](https://github.com/DinoDevs/Everwing-Hacks/releases/download/v2.2.3/EverWingHacks.v2.2.3.nex)
 
 
 (Not currently availiable on chrome store [issue here](../../issues/26))
