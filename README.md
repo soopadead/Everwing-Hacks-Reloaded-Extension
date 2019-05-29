@@ -1,5 +1,5 @@
 [![version](https://img.shields.io/badge/Extension%20Version-v2.2.4-green.svg)](https://github.com/0x4754/Everwing-Hacks-Reloaded-Extension/releases/latest)
-[![Download Extension](https://img.shields.io/badge/Download-Extension-blue.svg)](https://github.com/0x4754/Everwing-Hacks-Reloaded-Extension/download/v2.2.4/EverWingHacks.v2.2.4.crx)
+[![Download Extension](https://img.shields.io/badge/Download-Extension-blue.svg)](https://github.com/0x4754/Everwing-Hacks-Reloaded-Extension/releases/download/v2.2.4/extension_v2.2.4.crx)
 
 ## Everwing-Hacks-Reloaded
 ### Hacks for more fun on the EverWing game
@@ -11,7 +11,8 @@ This extension is based on the https://github.com/DinoDevs/Everwing-Hacks projec
 ### Installing the extension
 
 1. Download and install the [Opera web browser](https://www.opera.com/)
-2. Open Opera and install the latest [Everwing Hacks Reloaded](https://github.com/0x4754/Everwing-Hacks-Reloaded-Extension/releases/latest) extension
-3. Log in on facebook or messenger page if not already
-4. Run the Everwing game
-5. Enjoy!
+2. Download the latest [Everwing Hacks Reloaded](https://github.com/0x4754/Everwing-Hacks-Reloaded-Extension/releases/latest) extension *extension.crx* file
+3. Open Opera and throw the *extension.crx* file inside the opera window (enable the extension if asked)
+4. Log in on facebook or messenger page if not already
+5. Run the Everwing game
+6. Enjoy!
