@@ -1,8 +1,12 @@
-[![version](https://img.shields.io/badge/Extension%20Version-v2.2.4-green.svg)](https://github.com/0x4754/Everwing-Hacks-Reloaded-Extension/releases/latest)
-[![Download Extension](https://img.shields.io/badge/Download-Extension-blue.svg)](https://github.com/0x4754/Everwing-Hacks-Reloaded-Extension/releases/download/v2.2.4/extension_v2.2.4.crx)
+[![version](https://img.shields.io/badge/Extension%20Version-v2.2.5-green.svg)](https://github.com/0x4754/Everwing-Hacks-Reloaded-Extension/releases/latest)
+[![Download Extension](https://img.shields.io/badge/Download-Extension-blue.svg)](https://github.com/0x4754/Everwing-Hacks-Reloaded-Extension/releases/download/v2.2.5/extension_v2.2.5.crx)
 
 ## Everwing-Hacks-Reloaded
 ### Hacks for more fun on the EverWing game
+
+
+![preview](https://github.com/0x4754/Everwing-Hacks-Reloaded-Extension/blob/master/preview.png)
+
 
 This extension is based on the https://github.com/DinoDevs/Everwing-Hacks project.
 
